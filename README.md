@@ -10,9 +10,9 @@ git clone https://github.com/mamedev/mame.git
 
 And then clone dosplay in projects folder:
 
+```
 cd projects
 
-```
 git clone https://github.com/mamedev/dosplay.git
 ```
 
