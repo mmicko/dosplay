@@ -41,7 +41,7 @@ public:
 	virtual bool common_op(uint8_t op) override;
 };
 
-const device_type I8088_DOSPLAY = &device_creator<dosplay_i8088_cpu_device>;
+const device_type I8088_DOSPLAY = device_creator<dosplay_i8088_cpu_device>;
 
 bool dosplay_i8088_cpu_device::common_op(uint8_t op)
 {
